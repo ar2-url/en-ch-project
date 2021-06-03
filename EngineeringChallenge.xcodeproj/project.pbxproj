@@ -16,6 +16,18 @@
 		0429B52E266921C40062CC82 /* EngineeringChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429B52D266921C40062CC82 /* EngineeringChallengeTests.swift */; };
 		0429B539266921C40062CC82 /* EngineeringChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429B538266921C40062CC82 /* EngineeringChallengeUITests.swift */; };
 		0429B54B266923290062CC82 /* CaseStudyResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429B54A266923290062CC82 /* CaseStudyResponse.swift */; };
+		0429B562266923EB0062CC82 /* ControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429B553266923EB0062CC82 /* ControllerExtension.swift */; };
+		0429B563266923EB0062CC82 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429B554266923EB0062CC82 /* UIImageViewExtension.swift */; };
+		0429B564266923EB0062CC82 /* JsonDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429B555266923EB0062CC82 /* JsonDecodable.swift */; };
+		0429B565266923EB0062CC82 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429B556266923EB0062CC82 /* Storyboarded.swift */; };
+		0429B566266923EB0062CC82 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429B558266923EB0062CC82 /* NetworkClient.swift */; };
+		0429B567266923EB0062CC82 /* EndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429B559266923EB0062CC82 /* EndPoints.swift */; };
+		0429B568266923EB0062CC82 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429B55A266923EB0062CC82 /* Service.swift */; };
+		0429B569266923EB0062CC82 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429B55C266923EB0062CC82 /* ImageCache.swift */; };
+		0429B56A266923EB0062CC82 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429B55D266923EB0062CC82 /* Item.swift */; };
+		0429B56B266923EB0062CC82 /* ImageURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429B55E266923EB0062CC82 /* ImageURLProtocol.swift */; };
+		0429B56C266923EB0062CC82 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429B560266923EB0062CC82 /* Constants.swift */; };
+		0429B56D266923EB0062CC82 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429B561266923EB0062CC82 /* NetworkError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +63,18 @@
 		0429B538266921C40062CC82 /* EngineeringChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngineeringChallengeUITests.swift; sourceTree = "<group>"; };
 		0429B53A266921C40062CC82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0429B54A266923290062CC82 /* CaseStudyResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaseStudyResponse.swift; sourceTree = "<group>"; };
+		0429B553266923EB0062CC82 /* ControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControllerExtension.swift; sourceTree = "<group>"; };
+		0429B554266923EB0062CC82 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		0429B555266923EB0062CC82 /* JsonDecodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonDecodable.swift; sourceTree = "<group>"; };
+		0429B556266923EB0062CC82 /* Storyboarded.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
+		0429B558266923EB0062CC82 /* NetworkClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		0429B559266923EB0062CC82 /* EndPoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndPoints.swift; sourceTree = "<group>"; };
+		0429B55A266923EB0062CC82 /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		0429B55C266923EB0062CC82 /* ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		0429B55D266923EB0062CC82 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		0429B55E266923EB0062CC82 /* ImageURLProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageURLProtocol.swift; sourceTree = "<group>"; };
+		0429B560266923EB0062CC82 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0429B561266923EB0062CC82 /* NetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +125,9 @@
 		0429B515266921C20062CC82 /* EngineeringChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				0429B552266923EB0062CC82 /* Extensions */,
+				0429B557266923EB0062CC82 /* Service */,
+				0429B55F266923EB0062CC82 /* Utility */,
 				0429B549266923290062CC82 /* Model */,
 				0429B516266921C20062CC82 /* AppDelegate.swift */,
 				0429B518266921C20062CC82 /* SceneDelegate.swift */,
@@ -137,6 +164,47 @@
 				0429B54A266923290062CC82 /* CaseStudyResponse.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		0429B552266923EB0062CC82 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0429B553266923EB0062CC82 /* ControllerExtension.swift */,
+				0429B554266923EB0062CC82 /* UIImageViewExtension.swift */,
+				0429B555266923EB0062CC82 /* JsonDecodable.swift */,
+				0429B556266923EB0062CC82 /* Storyboarded.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0429B557266923EB0062CC82 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				0429B558266923EB0062CC82 /* NetworkClient.swift */,
+				0429B559266923EB0062CC82 /* EndPoints.swift */,
+				0429B55A266923EB0062CC82 /* Service.swift */,
+				0429B55B266923EB0062CC82 /* ImageDownloderAndCacher */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		0429B55B266923EB0062CC82 /* ImageDownloderAndCacher */ = {
+			isa = PBXGroup;
+			children = (
+				0429B55C266923EB0062CC82 /* ImageCache.swift */,
+				0429B55D266923EB0062CC82 /* Item.swift */,
+				0429B55E266923EB0062CC82 /* ImageURLProtocol.swift */,
+			);
+			path = ImageDownloderAndCacher;
+			sourceTree = "<group>";
+		};
+		0429B55F266923EB0062CC82 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				0429B560266923EB0062CC82 /* Constants.swift */,
+				0429B561266923EB0062CC82 /* NetworkError.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,9 +338,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				0429B51B266921C20062CC82 /* ViewController.swift in Sources */,
+				0429B56D266923EB0062CC82 /* NetworkError.swift in Sources */,
 				0429B517266921C20062CC82 /* AppDelegate.swift in Sources */,
+				0429B563266923EB0062CC82 /* UIImageViewExtension.swift in Sources */,
+				0429B564266923EB0062CC82 /* JsonDecodable.swift in Sources */,
 				0429B54B266923290062CC82 /* CaseStudyResponse.swift in Sources */,
+				0429B56C266923EB0062CC82 /* Constants.swift in Sources */,
+				0429B566266923EB0062CC82 /* NetworkClient.swift in Sources */,
+				0429B569266923EB0062CC82 /* ImageCache.swift in Sources */,
+				0429B56A266923EB0062CC82 /* Item.swift in Sources */,
+				0429B567266923EB0062CC82 /* EndPoints.swift in Sources */,
+				0429B56B266923EB0062CC82 /* ImageURLProtocol.swift in Sources */,
 				0429B519266921C20062CC82 /* SceneDelegate.swift in Sources */,
+				0429B568266923EB0062CC82 /* Service.swift in Sources */,
+				0429B562266923EB0062CC82 /* ControllerExtension.swift in Sources */,
+				0429B565266923EB0062CC82 /* Storyboarded.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
