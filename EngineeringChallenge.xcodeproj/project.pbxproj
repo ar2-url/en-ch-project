@@ -15,6 +15,7 @@
 		0429B523266921C30062CC82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0429B521266921C30062CC82 /* LaunchScreen.storyboard */; };
 		0429B52E266921C40062CC82 /* EngineeringChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429B52D266921C40062CC82 /* EngineeringChallengeTests.swift */; };
 		0429B539266921C40062CC82 /* EngineeringChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429B538266921C40062CC82 /* EngineeringChallengeUITests.swift */; };
+		0429B54B266923290062CC82 /* CaseStudyResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429B54A266923290062CC82 /* CaseStudyResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		0429B534266921C40062CC82 /* EngineeringChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EngineeringChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0429B538266921C40062CC82 /* EngineeringChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngineeringChallengeUITests.swift; sourceTree = "<group>"; };
 		0429B53A266921C40062CC82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0429B54A266923290062CC82 /* CaseStudyResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaseStudyResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		0429B515266921C20062CC82 /* EngineeringChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				0429B549266923290062CC82 /* Model */,
 				0429B516266921C20062CC82 /* AppDelegate.swift */,
 				0429B518266921C20062CC82 /* SceneDelegate.swift */,
 				0429B51A266921C20062CC82 /* ViewController.swift */,
@@ -126,6 +129,14 @@
 				0429B53A266921C40062CC82 /* Info.plist */,
 			);
 			path = EngineeringChallengeUITests;
+			sourceTree = "<group>";
+		};
+		0429B549266923290062CC82 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0429B54A266923290062CC82 /* CaseStudyResponse.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +271,7 @@
 			files = (
 				0429B51B266921C20062CC82 /* ViewController.swift in Sources */,
 				0429B517266921C20062CC82 /* AppDelegate.swift in Sources */,
+				0429B54B266923290062CC82 /* CaseStudyResponse.swift in Sources */,
 				0429B519266921C20062CC82 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
