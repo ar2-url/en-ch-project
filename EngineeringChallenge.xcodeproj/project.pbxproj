@@ -34,6 +34,11 @@
 		0429B586266925A30062CC82 /* CaseStudyDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429B57E266925A30062CC82 /* CaseStudyDetailsViewModel.swift */; };
 		0429B587266925A30062CC82 /* CaseStudyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429B57F266925A30062CC82 /* CaseStudyViewModel.swift */; };
 		0429B593266928330062CC82 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429B592266928330062CC82 /* MainCoordinator.swift */; };
+		0429B5A6266933550062CC82 /* MockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429B5A0266933550062CC82 /* MockService.swift */; };
+		0429B5A7266933550062CC82 /* ItemsSuccessResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 0429B5A2266933550062CC82 /* ItemsSuccessResponse.json */; };
+		0429B5A8266933550062CC82 /* ItemFailureResonse.json in Resources */ = {isa = PBXBuildFile; fileRef = 0429B5A3266933550062CC82 /* ItemFailureResonse.json */; };
+		0429B5A9266933550062CC82 /* CaseStudyDetailsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429B5A4266933550062CC82 /* CaseStudyDetailsViewModelTests.swift */; };
+		0429B5AA266933550062CC82 /* CaseStudyViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429B5A5266933550062CC82 /* CaseStudyViewModelTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +92,11 @@
 		0429B57E266925A30062CC82 /* CaseStudyDetailsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaseStudyDetailsViewModel.swift; sourceTree = "<group>"; };
 		0429B57F266925A30062CC82 /* CaseStudyViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaseStudyViewModel.swift; sourceTree = "<group>"; };
 		0429B592266928330062CC82 /* MainCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		0429B5A0266933550062CC82 /* MockService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockService.swift; sourceTree = "<group>"; };
+		0429B5A2266933550062CC82 /* ItemsSuccessResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ItemsSuccessResponse.json; sourceTree = "<group>"; };
+		0429B5A3266933550062CC82 /* ItemFailureResonse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ItemFailureResonse.json; sourceTree = "<group>"; };
+		0429B5A4266933550062CC82 /* CaseStudyDetailsViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaseStudyDetailsViewModelTests.swift; sourceTree = "<group>"; };
+		0429B5A5266933550062CC82 /* CaseStudyViewModelTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaseStudyViewModelTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +165,10 @@
 		0429B52C266921C30062CC82 /* EngineeringChallengeTests */ = {
 			isa = PBXGroup;
 			children = (
+				0429B5A4266933550062CC82 /* CaseStudyDetailsViewModelTests.swift */,
+				0429B5A5266933550062CC82 /* CaseStudyViewModelTest.swift */,
+				0429B5A0266933550062CC82 /* MockService.swift */,
+				0429B5A1266933550062CC82 /* SampleResponse */,
 				0429B52D266921C40062CC82 /* EngineeringChallengeTests.swift */,
 				0429B52F266921C40062CC82 /* Info.plist */,
 			);
@@ -273,6 +287,15 @@
 			path = Coordinator;
 			sourceTree = "<group>";
 		};
+		0429B5A1266933550062CC82 /* SampleResponse */ = {
+			isa = PBXGroup;
+			children = (
+				0429B5A2266933550062CC82 /* ItemsSuccessResponse.json */,
+				0429B5A3266933550062CC82 /* ItemFailureResonse.json */,
+			);
+			path = SampleResponse;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -386,6 +409,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0429B5A7266933550062CC82 /* ItemsSuccessResponse.json in Resources */,
+				0429B5A8266933550062CC82 /* ItemFailureResonse.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,7 +457,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0429B5AA266933550062CC82 /* CaseStudyViewModelTest.swift in Sources */,
 				0429B52E266921C40062CC82 /* EngineeringChallengeTests.swift in Sources */,
+				0429B5A6266933550062CC82 /* MockService.swift in Sources */,
+				0429B5A9266933550062CC82 /* CaseStudyDetailsViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
