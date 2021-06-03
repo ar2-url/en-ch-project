@@ -10,7 +10,6 @@
 		0429B517266921C20062CC82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429B516266921C20062CC82 /* AppDelegate.swift */; };
 		0429B519266921C20062CC82 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429B518266921C20062CC82 /* SceneDelegate.swift */; };
 		0429B520266921C30062CC82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0429B51F266921C30062CC82 /* Assets.xcassets */; };
-		0429B523266921C30062CC82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0429B521266921C30062CC82 /* LaunchScreen.storyboard */; };
 		0429B52E266921C40062CC82 /* EngineeringChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429B52D266921C40062CC82 /* EngineeringChallengeTests.swift */; };
 		0429B539266921C40062CC82 /* EngineeringChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429B538266921C40062CC82 /* EngineeringChallengeUITests.swift */; };
 		0429B54B266923290062CC82 /* CaseStudyResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429B54A266923290062CC82 /* CaseStudyResponse.swift */; };
@@ -34,6 +33,7 @@
 		0429B585266925A30062CC82 /* CaseStudyDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429B57C266925A30062CC82 /* CaseStudyDetailsViewController.swift */; };
 		0429B586266925A30062CC82 /* CaseStudyDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429B57E266925A30062CC82 /* CaseStudyDetailsViewModel.swift */; };
 		0429B587266925A30062CC82 /* CaseStudyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429B57F266925A30062CC82 /* CaseStudyViewModel.swift */; };
+		0429B593266928330062CC82 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429B592266928330062CC82 /* MainCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,7 +58,6 @@
 		0429B516266921C20062CC82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0429B518266921C20062CC82 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0429B51F266921C30062CC82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0429B522266921C30062CC82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0429B524266921C30062CC82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0429B529266921C30062CC82 /* EngineeringChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EngineeringChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0429B52D266921C40062CC82 /* EngineeringChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngineeringChallengeTests.swift; sourceTree = "<group>"; };
@@ -87,6 +86,7 @@
 		0429B57C266925A30062CC82 /* CaseStudyDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaseStudyDetailsViewController.swift; sourceTree = "<group>"; };
 		0429B57E266925A30062CC82 /* CaseStudyDetailsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaseStudyDetailsViewModel.swift; sourceTree = "<group>"; };
 		0429B57F266925A30062CC82 /* CaseStudyViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaseStudyViewModel.swift; sourceTree = "<group>"; };
+		0429B592266928330062CC82 /* MainCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +137,7 @@
 		0429B515266921C20062CC82 /* EngineeringChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				0429B591266928330062CC82 /* Coordinator */,
 				0429B571266925A30062CC82 /* View */,
 				0429B57D266925A30062CC82 /* ViewModel */,
 				0429B552266923EB0062CC82 /* Extensions */,
@@ -146,7 +147,6 @@
 				0429B516266921C20062CC82 /* AppDelegate.swift */,
 				0429B518266921C20062CC82 /* SceneDelegate.swift */,
 				0429B51F266921C30062CC82 /* Assets.xcassets */,
-				0429B521266921C30062CC82 /* LaunchScreen.storyboard */,
 				0429B524266921C30062CC82 /* Info.plist */,
 			);
 			path = EngineeringChallenge;
@@ -265,6 +265,14 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		0429B591266928330062CC82 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				0429B592266928330062CC82 /* MainCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -368,7 +376,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0429B523266921C30062CC82 /* LaunchScreen.storyboard in Resources */,
 				0429B583266925A30062CC82 /* Main.storyboard in Resources */,
 				0429B582266925A30062CC82 /* LaunchScreen.storyboard in Resources */,
 				0429B520266921C30062CC82 /* Assets.xcassets in Resources */,
@@ -401,6 +408,7 @@
 				0429B581266925A30062CC82 /* CaseStudyTableViewCell.swift in Sources */,
 				0429B56D266923EB0062CC82 /* NetworkError.swift in Sources */,
 				0429B517266921C20062CC82 /* AppDelegate.swift in Sources */,
+				0429B593266928330062CC82 /* MainCoordinator.swift in Sources */,
 				0429B587266925A30062CC82 /* CaseStudyViewModel.swift in Sources */,
 				0429B563266923EB0062CC82 /* UIImageViewExtension.swift in Sources */,
 				0429B564266923EB0062CC82 /* JsonDecodable.swift in Sources */,
@@ -452,14 +460,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0429B521266921C30062CC82 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0429B522266921C30062CC82 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 		0429B576266925A30062CC82 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
