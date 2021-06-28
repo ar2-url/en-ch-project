@@ -17,6 +17,10 @@ class CaseStudyTableViewCell: UITableViewCell {
         // Initialization code
     }
 
+    override func prepareForReuse() {
+        lblTeaser.text = ""
+        imageViewHero.image = nil
+    }
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
